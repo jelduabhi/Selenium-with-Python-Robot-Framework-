@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.10.4 on win32)" generated="2024-05-02T12:43:56.079990" rpa="false" schemaversion="5">
+<suite id="s1" name="SampleRobot" source="D:\Projects\Selenium with Python Robot Framework\RobotFramework\SampleRobot.robot">
+<test id="s1-t1" name="Sample Test Case" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-05-02T12:43:56.589100" level="INFO">Opening browser 'chrome' to base url 'https://demo.opencart.com/index.php?route=account/register&amp;language=en-gb'.</msg>
+<arg>https://demo.opencart.com/index.php?route=account/register&amp;language=en-gb</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-05-02T12:43:56.589100" elapsed="8.386278"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-05-02T12:44:04.980482" elapsed="0.262607"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-02T12:44:05.244628" level="INFO">Typing text 'Sai Kumar' into text field 'id=input-firstname'.</msg>
+<arg>id=input-firstname</arg>
+<arg>Sai Kumar</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-02T12:44:05.243598" elapsed="0.253484"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-02T12:44:05.498097" level="INFO">Typing text 'Jeldu' into text field 'id=input-lastname'.</msg>
+<arg>id=input-lastname</arg>
+<arg>Jeldu</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-02T12:44:05.498097" elapsed="0.176885"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-05-02T12:44:05.676229" level="INFO">Clicking button 'class:btn btn-primary'.</msg>
+<msg time="2024-05-02T12:44:05.872580" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-05-02T12:44:05.872580" level="FAIL">Button with locator 'class:btn btn-primary' not found.</msg>
+<arg>class:btn btn-primary</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2024-05-02T12:44:05.676229" elapsed="0.313353">Button with locator 'class:btn btn-primary' not found.</status>
+</kw>
+<status status="FAIL" start="2024-05-02T12:43:56.588090" elapsed="9.402493">Button with locator 'class:btn btn-primary' not found.</status>
+</test>
+<status status="FAIL" start="2024-05-02T12:43:56.085721" elapsed="9.905861"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="SampleRobot">SampleRobot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
